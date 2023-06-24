@@ -8,14 +8,14 @@ inbounds:
   protocol: vless
   settings:
     clients:
-    - id: "384d0bd2-28aa-4a0b-9518-0926818c2868"
+    - id: "4e5dc2e1-d6b7-4c02-869b-7ad55827e235"
     decryption: "none"
   streamSettings:
     network: ws
     wsSettings:
       path: qwe
   sniffing:
-    enabled: true
+    enabled: false
     destOverride:
     - http
     - tls
